@@ -10,6 +10,8 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        jcenter()
+        maven { url "https://jitpack.io" }
     }
 }
 rootProject.name = "Jay_walker_alert_for_watch_os"
